@@ -4,6 +4,7 @@ const productos = [
   { id: 3, nombre: "Monitor", categoria: "Pantalla",   precio: 800000, stock: 2,  ventas: 4  },
   { id: 4, nombre: "USB",     categoria: "Accesorio",  precio: 30000,  stock: 0,  ventas: 15 },
   { id: 5, nombre: "Diadema", categoria: "Audio",      precio: 90000,  stock: 8,  ventas: 6  },
+  { id: 6, nombre: "Federico", categoria: "Pantalla", precio: 15000, stock: 3, ventas: 4 },
 ];
 
 function fmt(n) { return "$" + n.toLocaleString("es-CO"); }
